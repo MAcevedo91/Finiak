@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     width: 100%;
     height: auto;
@@ -7,22 +13,66 @@ header{
     width: 100%;
     height: auto;
     text-align: center;
+    align-content: center;
+    justify-content: center;
     background-color: #0d1f1c;
 
 }
 
 .nav-title{
-    color: #fff;
-    width: 1297px;
-    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 80px;
 }
+
+
+/* Título Finiak */
 .finiak-title{
+    color: #fff;
     font-family: 'Outfit', sans-serif;
     font-size: 27px;
     font-weight: 600;
-
+    margin: 0;
+}
+.finiak-title a{
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+.finiak-title a:hover {
+    color: #F06C44;
 }
 
+
+/* Links de navegación */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding-right: 100px;
+}
+
+.nav-links li a{
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+
+}
+.nav-links li a:hover {
+    color: #F06C44;
+}
+
+
+/* Sección de texto */
 .content-financial{
     color: #fff;
     text-align: center;
@@ -58,6 +108,7 @@ header{
     font-family: 'inter', sans-serif;
     font-weight: 600;
     border-radius: 5px;
+    cursor: pointer;
 }
 .financial-buttons .demo{
     width: 220px;
@@ -71,7 +122,50 @@ header{
     margin-left: 15px;
     gap: 10px;
     border: 1px solid #0d1f1c;
+    cursor: pointer;
 }
 .financial-buttons .demo i{
     font-size: 14px;
+}
+
+/* Botones Navbar */
+.botones-navbar a{
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 20px;
+    transition: color 0.3s ease;
+
+}
+.botones-navbar a:hover {
+    color: #F06C44;
+}
+
+.botones-navbar button{
+    width: 168px;
+    height: 56px;
+    padding: 16px 20px;
+    border-radius: 3px;
+    background-color: #F06C44;
+    cursor: pointer;
+    color: #fff;
+    
+
+}
+
+/* Rectángulo */
+
+.rectangulo-desconocido {
+    width: 90%; 
+    max-width: 1076px;
+    height: 622px;
+    background-color: #919192;
+    border-radius: 10px;
+    border: 10px solid #12141D;
+    border-bottom: none;
+    margin: 80px auto 0 auto;
 }
