@@ -129,7 +129,7 @@ header{
 }
 
 /* Botones Navbar */
-.botones-navbar a{
+.navbar-buttons a{
     font-family: 'inter', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -141,11 +141,11 @@ header{
     transition: color 0.3s ease;
 
 }
-.botones-navbar a:hover {
+.navbar-buttons a:hover {
     color: #F06C44;
 }
 
-.botones-navbar button{
+.navbar-buttons button{
     width: 168px;
     height: 56px;
     padding: 16px 20px;
@@ -159,7 +159,7 @@ header{
 
 /* Rectángulo */
 
-.rectangulo-desconocido {
+.group2874 {
     width: 90%; 
     max-width: 1076px;
     height: 622px;
@@ -168,4 +168,10 @@ header{
     border: 10px solid #12141D;
     border-bottom: none;
     margin: 80px auto 0 auto;
+}
+
+/* Logo section */
+.logo-section{
+    width: 100%;
+    height: auto;
 }
